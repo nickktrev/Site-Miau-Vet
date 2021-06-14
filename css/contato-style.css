@@ -1,0 +1,52 @@
+/* Equipa e contatos */
+
+main .main-equipa {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-equipa .container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-equipa img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-equipa .content {
+  padding: 20px;
+}
+
+.card-equipa .title {
+  text-align: center;
+}
+/*contato*/
+
+.main-contato {
+  background: #828485;
+  border-radius: 10px 10px;
+}
+
+.card-contato {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.localizacao {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.localizacao iframe {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

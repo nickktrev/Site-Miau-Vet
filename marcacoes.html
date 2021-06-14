@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marcações</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="img/icon-pag.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/style-marcacoes.css">
+</head>
+
+<body> 
+    <header>
+        <div class="view">
+            <img class="logo" src="/img/logotipo.png" alt=logo>
+
+            <nav>
+                <a href="index.html">HOME</a>
+                <a class="active" href="marcacoes.html">MARCAÇÕES</a>  <!-- marca a pagina que está -->
+                <a  href="miau_pedia.html">MIAU-PÉDIA</a>
+                <a href="contactos.html">CONTACTOS</a>
+                <a href="contactos.html">EQUIPA</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- FORMULÁRIO -->
+    <main>
+    <div>
+        <h1 >PREENCHA O FORMULÁRIO:</h1>
+        <br>
+    </div>
+
+    <form >
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">NOME DO PROPRIETÁRIO:</label>
+                <input type="text" nome="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="gato">NOME DO GATO(A):</label>
+                <input type="text" nome="gato" id="gato" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo2">
+            <div class="campo">
+                <label for="email">E-MAIL:</label>
+                <input type="email" nome="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">TELEFONE:</label>
+                <input type="text" nome="telefone" id="tel" >
+            </div>
+           
+        </fieldset>
+
+        <fieldset class="grupo3">
+            <div id="genre">
+                <label class="title-genre">GÊNERO:</label>
+                <label class="genero">
+                    F <input type="radio" name="genero" value="genero">
+                </label>
+                <label>
+                    <label class="genero">
+                        M <input type="radio" name="genero" value="genero">
+                    </label>
+                </label>
+                
+            </div>
+
+            <div class="campo">
+                <label>DATA DE NASCIMENTO:</label>
+                <input type="date" name="data_nasc" id="data_nasc">
+            </div>
+            
+            
+            <div class="campo">
+                <label>DATA DESEJADA:</label>
+                <input type="date" name="data_marc" id="data_marc">
+            </div>
+        </fieldset>    
+
+        <div id="type">
+            <label>TIPO:</label>
+            <label class="tipo">
+               CONSULTA <input type="radio" name="tipo" value="consulta" checked>
+            </label>
+            <label class="tipo">
+               EXAME <input type="radio" name="tipo" value="exame">
+            </label>
+            <label class="tipo">
+                VACINA <input type="radio" name="tipo" value="vacina">
+            </label>
+            <button class="botao" type="submit">MARCAR</button>
+        </div>
+
+            
+            
+        </fieldset>      
+    </form>
+
+    <!-- CONSULTORIO -->
+    <div class="titulo-consult">  
+            <h2 id="titulo-consult">CONSULTÓRIO</h2>
+    </div>
+
+    <div id="imagem">
+        <img src="img/consultorio.jpg" alt="consultorio">
+    </div>
+</main>
+</body>
+
+<!-- Footer -->
+<footer>
+    <div class="view">
+        <div class="informacoes">
+
+            <div class="legal" aria-hidden="true">
+                <div>
+                    <p><strong>LEGAL</strong></p>
+                    <a href="#">Termos e condições</a>
+               
+                    <a href="#">Política de privacidade</a>
+                    <a href="#">Política de cookies</a>
+                </div>
+            </div>
+
+            <div class="meios-comunicacao" aria-hidden="true">
+                <div>
+                    <p><strong>MEIOS DE COMUNICAÇÂO</strong></p>
+                    <div class="social">
+                        <a href="https://facebook.com" target="_blank"><img src="img/face.png" alt="icone do facebook"></a>
+                        <a href="https://twitter.com" target="_blank"><img src="img/tt.png" alt="icone do twitter"></a>
+                        <a href="https://instagram.com" target="_blank"><img src="img/insta.png" alt="icone do instagram"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="copyright">&copy; Copyright Connect 2021. Todos os direitos reservados. </p>
+    </div>
+
+
+</html>

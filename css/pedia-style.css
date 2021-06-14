@@ -1,0 +1,48 @@
+.card {
+  background-color: #828485;
+  border-radius: 10px;
+}
+
+.card .container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card .content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.card .sub-title {
+  margin-bottom: 20px;
+}
+
+.video-container {
+  background: #fff;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.video-container .title {
+  text-align: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+.video iframe {
+  width: 600px;
+  height: 450px;
+}

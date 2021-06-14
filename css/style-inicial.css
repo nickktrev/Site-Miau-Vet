@@ -1,0 +1,112 @@
+.icon-container {
+  float: right;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* AUDIO */
+
+audio {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+}
+
+.banner {
+  height: 500px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#home.view {
+  margin-top: -150px;
+}
+/* SERVIÇOS */
+
+#home .cartoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cartao {
+  background-color: #908f8f;
+  padding: 20px;
+  width: 300px;
+  font-size: 2rem;
+  text-align: center;
+  color: #3c3c3c;
+  border-radius: 0.3em;
+  position: relative;
+  box-shadow: 0 0 1rem rgb(43, 41, 41);
+  cursor: pointer;
+}
+
+.cartao:after, .cartao:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform .3s ease-in-out;
+}
+.cartao:before{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  transform: scaleY(0);
+}
+.cartao:after{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  transform: scaleX(0);
+}
+
+.cartao:hover:before{
+  transform: scaleY(1);
+}
+
+.cartao:hover:after{
+  transform: scaleX(1);
+}
+
+.botao {
+  border: 4px solid;
+  border-color: #3c3c3c;
+  color: #3c3c3c;
+  background-color: #908f8f;
+  padding: 1.5rem;
+  font-size: 1.25;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: #908f8f;
+  color: #696767;
+}
+
+/* SOBRE NÓS */
+
+#welcome {
+  margin-top: 20px;
+}
+.container {
+  color: #5f5a5a;
+}
+
+.texto-sobre {
+  color: #252525;
+}
+.texto {
+  text-align: justify;
+}
+
+#serv {
+  color: #252525;
+}
